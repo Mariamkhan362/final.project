@@ -1,0 +1,784 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!--Navs section-->
+    <div class="container-fluid ">
+        <div class="container topBar">
+            <div class="d-flex justify-content-between">
+                <div class="top-info ps-2">
+                    <small class="me-3"><i class="ri-map-pin-2-fill" style="color: gold;"></i><a
+                            style="text-decoration: none;" href="#" class="text-white">
+                            123 Street, New York</a></small>
+                    <small class="me-3"><i class="ri-mail-fill" style="color: gold;"></i><a
+                            style="text-decoration: none;" href="#" class="text-white">
+                            Email@Example.com</a></small>
+                </div>
+                <div class="top-link pe-2">
+                    <a style="text-decoration: none;" href="#" class="text-white"><small class="text-white mx-2">Privacy
+                            Policy</small>/</a>
+                    <a style="text-decoration: none;" href="#" class="text-white"><small class="text-white mx-2">Terms
+                            of Use</small>/</a>
+                    <a style="text-decoration: none;" href="#" class="text-white"><small class="text-white ms-2">Sales
+                            and Refunds</small></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="navbar navbar-light bg-white navbar-expand-xl">
+            <a href="#" class="navbar-brand">
+                <h1 class="display-6"
+                    style="color: #81c408; font-size:40px; font-weight: 800; position: relative; left: 70px;">Fruitables
+                </h1>
+            </a>
+
+            <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
+                <div class="navbar-nav mx-auto">
+                    <a href="index.html" class="nav-item nav-link"
+                        style="color: #81c408; padding: 10px 15px; font-size: 16px;transition: .5s; ">Home</a>
+                    <a href="shop.html" class="nav-item nav-link"
+                        style="color: rgba(0, 0, 0, .55); padding: 10px 15px; font-size: 16px;transition: .5s; ">Shop</a>
+                    <a href="shop-detail.html" class="nav-item nav-link"
+                        style="color: rgba(0, 0, 0, .55); padding: 10px 15px; font-size: 16px;transition: .5s; ">Shop
+                        Detail</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                            style="color: rgba(0, 0, 0, .55); padding: 10px 15px; font-size: 16px;transition: .5s; ">Pages</a>
+                        <div class="dropdown-menu m-0  rounded-0">
+                            <a href="cart.html" class="dropdown-item">Cart</a>
+                            <a href="chackout.html" class="dropdown-item">Chackout</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="404.html" class="dropdown-item">404 Page</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link"
+                        style="color: rgba(0, 0, 0, .55); padding: 10px 15px; font-size: 16px;transition: .5s; ">Contact</a>
+                </div>
+                <div class="d-flex" style="position: relative; right:60px;">
+                    <button class="btn-search btn  btn-md-square  bg-white me-4"
+                        style="color: #81c408; font-weight: 600; border-radius:25px; border-color:#FFB524; width: 46px; height: 44px;"><i
+                            class="ri-search-line"></i></button>
+                    <a style="text-decoration: none;" href="#" class="position-relative me-4">
+                        <i class="ri-shopping-bag-fill"
+                            style="font-size:38px; color:#81c408; position: relative; right: 10px; bottom:7px;"></i>
+                        <span
+                            class="position-absolute  rounded-circle d-flex align-items-center justify-content-center  px-1"
+                            style="top:1px; left:13px; height: 20px; min-width: 20px; padding-right:4px; padding-left:4px; border-radius: 50%; background-color: #ffb524; color: #45595b !important;">3</span>
+                    </a>
+                    <a style="text-decoration: none; color: #81c408 !important; font-size:38px !important; position: relative; bottom:10px; right: 22px;"
+                        href="#" class="my-auto">
+                        <i class="ri-user-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Single page header section-->
+    <section id="header">
+        <div class="container-fluid page-header py-5">
+            <h1 class="text-center text-white" style="font-weight: 800;">Shop</h1>
+            <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a href="#" style="color: #81c408; text-decoration: none;">Home</a></li>
+                <li class="breadcrumb-item"><a href="#" style="color: #81c408; text-decoration: none;">Pages</a></li>
+                <li class="breadcrumb-item active text-white">Shop</li>
+            </ol>
+        </div>
+    </section>
+
+    <!--Fruits shop section-->
+    <section id="Fruits-shop">
+        <div class="container-fluid fruite py-5">
+            <div class="container py-5">
+                <h1 class="mb-4" style="color: #45595b; font-weight: 600 !important;">Fresh fruits shop</h1>
+                <div class="row g-4">
+                    <div class="col-lg-12">
+                        <div class="row g-4">
+                            <div class="col-xl-3">
+                                <div class="input-group w-100 mx-auto d-flex">
+                                    <input type="search" class="form-control p-3"
+                                        style="color: #747d88 !important; font-size: 17px;" placeholder="keywords"
+                                        aria-describedby="search-icon-1">
+                                    <span id="search-icon-1" class="input-group-text p-3"
+                                        style="background-color: #e9ecef; border: 1px solid #ced4da !important; "><i
+                                            class="ri-search-line"
+                                            style=" border-radius: 10px; color: #747d88; font-weight: 900;"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-6"></div>
+                            <div class="col-xl-3">
+                                <div class="bg-light ps-3 py-3 rounded d-flex justify-content-between mb-4">
+                                    <label for="fruits" style="color: #747d88; font-size:17px;">Default Sorting:</label>
+                                    <select id="fruits" name="fruitlist" class="border-0 form-select-sm bg-light me-3"
+                                        form="fruitform">
+                                        <option value="volvo">Nothing</option>
+                                        <option value="saab">Popularity</option>
+                                        <option value="opel">Organic</option>
+                                        <option value="audi">Fantastic</option>
+                                    </select>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-lg-3">
+                                <div class="row g-4">
+                                    <div class="col-lg-12">
+                                        <div class="mb-3">
+                                            <h4 style="color: #45595b; font-weight: 600 !important;">Categories</h4>
+                                            <ul class="list-unstyled fruite-categorie">
+                                                <li>
+                                                    <div class="d-flex justify-content-between fruite-name">
+                                                        <a href="#"
+                                                            style="text-decoration:none; transition: 0.5s; color:#679d06; font-size:17px;"><i
+                                                                class="ri-apple-fill"
+                                                                style="margin-right: .5rem !important;"></i>Apples</a>
+                                                        <span style="color: #747d88;">(3)</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="d-flex justify-content-between fruite-name">
+                                                        <a href="#"
+                                                            style="text-decoration:none; transition: 0.5s; color:#679d06; font-size:17px;"><i
+                                                                class="ri-apple-fill"
+                                                                style="margin-right: .5rem !important;"></i>Oranges</a>
+                                                        <span style="color: #747d88;">(5)</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="d-flex justify-content-between fruite-name">
+                                                        <a href="#"
+                                                            style="text-decoration:none; transition: 0.5s; color:#679d06; font-size:17px;"><i
+                                                                class="ri-apple-fill"
+                                                                style="margin-right: .5rem !important;"></i>Strawbery</a>
+                                                        <span style="color: #747d88;">(2)</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="d-flex justify-content-between fruite-name">
+                                                        <a href="#"
+                                                            style="text-decoration:none; transition: 0.5s; color:#679d06; font-size:17px;"><i
+                                                                class="ri-apple-fill"
+                                                                style="margin-right: .5rem !important;"></i>Banana</a>
+                                                        <span style="color: #747d88;">(8)</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="d-flex justify-content-between fruite-name">
+                                                        <a href="#"
+                                                            style="text-decoration:none; transition: 0.5s; color:#679d06; font-size:17px;"><i
+                                                                class="ri-apple-fill"
+                                                                style="margin-right: .5rem !important;"></i>Pumpkin</a>
+                                                        <span style="color: #747d88;">(5)</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="mb-3">
+                                            <h4 class="mb-2" style="font-weight: 600 !important;color: #45595b;">Price
+                                            </h4>
+                                            <input type="range" class="form-range w-100"
+                                                style="color: #679d06 !important;" id="rangeInput" name="rangeInput"
+                                                min="0" max="500" value="0" oninput="amount.value=rangeInput.value">
+                                            <output id="amount" name="amount" min-velue="0" max-value="500"
+                                                for="rangeInput" style="color:#747d88;">0</output>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="mb-3">
+                                            <h4 style="color: #45595b; font-weight: 600 !important;">Additional</h4>
+                                            <div class="mb-2">
+                                                <input type="radio" class="me-2" id="Categories-1" name="Categories-1"
+                                                    value="Beverages">
+                                                <label for="Categories-1" style="color:#747d88;"> Organic</label>
+                                            </div>
+                                            <div class="mb-2">
+                                                <input type="radio" class="me-2" id="Categories-2" name="Categories-1"
+                                                    value="Beverages">
+                                                <label for="Categories-2" style="color:#747d88;"> Fresh</label>
+                                            </div>
+                                            <div class="mb-2">
+                                                <input type="radio" class="me-2" id="Categories-3" name="Categories-1"
+                                                    value="Beverages">
+                                                <label for="Categories-3" style="color:#747d88;"> Sales</label>
+                                            </div>
+                                            <div class="mb-2">
+                                                <input type="radio" class="me-2" id="Categories-4" name="Categories-1"
+                                                    value="Beverages">
+                                                <label for="Categories-4" style="color:#747d88;"> Discount</label>
+                                            </div>
+                                            <div class="mb-2">
+                                                <input type="radio" class="me-2" id="Categories-5" name="Categories-1"
+                                                    value="Beverages">
+                                                <label for="Categories-5" style="color:#747d88;"> Expired</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <h4 class="mb-3" style="color: #45595b; font-weight: 600 !important;">Featured
+                                            products</h4>
+                                        <div class="d-flex align-items-center justify-content-start">
+                                            <div class="rounded me-4" style="width: 100px; height: 100px;">
+                                                <img src="./assets/img/featureproduct1.jpg" class="img-fluid rounded"
+                                                    alt="">
+                                            </div>
+                                            <div>
+                                                <h6 class="mb-2" style="color: #747d88; font-size:17px;">Big Banana</h6>
+                                                <div class="d-flex mb-2">
+                                                    <i class="ri-star-fill"
+                                                        style="color: #ffb524; font-weight: 900;"></i>
+                                                    <i class="ri-star-fill"
+                                                        style="color: #ffb524; font-weight: 900;"></i>
+                                                    <i class="ri-star-fill"
+                                                        style="color: #ffb524; font-weight: 900;"></i>
+                                                    <i class="ri-star-fill"
+                                                        style="color: #ffb524; font-weight: 900;"></i>
+                                                    <i class="ri-star-fill"
+                                                        style="color: #747d88; font-weight: 900;"></i>
+                                                </div>
+                                                <div class="d-flex mb-2">
+                                                    <h5 class="fw-bold me-2" style="color: #45595b;">2.99 $</h5>
+                                                    <h5 class="text-danger text-decoration-line-through">4.11 $</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-start">
+                                            <div class="rounded me-4" style="width: 100px; height: 100px;">
+                                                <img src="./assets/img/featureproduct2.jpg" class="img-fluid rounded"
+                                                    alt="">
+                                            </div>
+                                            <div>
+                                                <h6 class="mb-2" style="color: #747d88; font-size:17px;">Big Banana</h6>
+                                                <div class="d-flex mb-2">
+                                                    <i class="ri-star-fill"
+                                                        style="color: #ffb524; font-weight: 900;"></i>
+                                                    <i class="ri-star-fill"
+                                                        style="color: #ffb524; font-weight: 900;"></i>
+                                                    <i class="ri-star-fill"
+                                                        style="color: #ffb524; font-weight: 900;"></i>
+                                                    <i class="ri-star-fill"
+                                                        style="color: #ffb524; font-weight: 900;"></i>
+                                                    <i class="ri-star-fill"
+                                                        style="color: #747d88; font-weight: 900;"></i>
+                                                </div>
+                                                <div class="d-flex mb-2">
+                                                    <h5 class="fw-bold me-2" style="color: #45595b;">2.99 $</h5>
+                                                    <h5 class="text-danger text-decoration-line-through">4.11 $</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-start">
+                                            <div class="rounded me-4" style="width: 100px; height: 100px;">
+                                                <img src="./assets/img/featureproduct3.jpg" class="img-fluid rounded"
+                                                    alt="">
+                                            </div>
+                                            <div>
+                                                <h6 class="mb-2" style="color: #747d88; font-size:17px;">Big Banana</h6>
+                                                <div class="d-flex mb-2">
+                                                    <i class="ri-star-fill"
+                                                        style="color: #ffb524; font-weight: 900;"></i>
+                                                    <i class="ri-star-fill"
+                                                        style="color: #ffb524; font-weight: 900;"></i>
+                                                    <i class="ri-star-fill"
+                                                        style="color: #ffb524; font-weight: 900;"></i>
+                                                    <i class="ri-star-fill"
+                                                        style="color: #ffb524; font-weight: 900;"></i>
+                                                    <i class="ri-star-fill"
+                                                        style="color: #747d88; font-weight: 900;"></i>
+                                                </div>
+                                                <div class="d-flex mb-2">
+                                                    <h5 class=" fw-bold" style="color: #45595b;">2.99 $</h5>
+                                                    <h5 class="text-danger text-decoration-line-through">4.11 $</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-center my-4">
+                                            <a href="#" class="btn border px-4 py-3 rounded-pill w-100"
+                                                style="transition: 0.5s; font-weight: 600; color:#81c408; border-color: #ffb524 !important;">Vew
+                                                More</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="position-relative">
+                                            <img src="./assets/img/banner-fruits.jpg" class="img-fluid w-100"
+                                                style="border-radius:12px;" alt="">
+                                            <div class="position-absolute"
+                                                style="top: 50%; right: 10px; transform: translateY(-50%);">
+                                                <h3 class="fw-bold" style="color: #ffb524;">Fresh <br> Fruits <br>
+                                                    Banner</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="row g-4 justify-content-center">
+                                    <div class="col-md-6 col-lg-6 col-xl-4 fruits-hover">
+                                        <div class="rounded position-relative fruite-item">
+                                            <div class="fruite-img">
+                                                <img src="./assets/img/fruite-item-1.jpg" class="img-fluid w-100"
+                                                    style="border-top-left-radius: 12px !important;  border-top-right-radius: 12px !important;"
+                                                    alt="">
+                                            </div>
+                                            <div class="text-white px-3 py-1 position-absolute"
+                                                style="top: 10px; left: 10px; border-radius:10px; background-color: #ffb524;">
+                                                Fruits</div>
+                                            <div class="p-4 border border-top-0"
+                                                style="border-bottom-right-radius: 12px !important; border-bottom-left-radius: 12px !important;border-color: #ffb524 !important;">
+                                                <h4 style="color: #45595b; font-weight: 600 !important;">Grapes</h4>
+                                                <p style="color: #747d88;">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit<br> sed do
+                                                    eiusmod te<br> incididunt</p>
+                                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                                    <p class="fs-5 mb-0" style="color: #747d88; font-weight: 600;">$4.99
+                                                        / kg</p>
+
+                                                    <a href="#" class="btn border px-3"
+                                                        style="border-radius:800px; font-weight: 600; color: #81c408;border-color: #ffb524 !important;border: 1px solid #dee2e6; display: inline-block;text-align: center; vertical-align: middle; cursor: pointer; ">
+
+                                                        <i class="ri-shopping-bag-fill"
+                                                            style="color: #81c408;margin-right:6px; font-weight: 900;"></i>
+                                                        Add to
+                                                        cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-xl-4 fruits-hover">
+                                        <div class="rounded position-relative fruite-item">
+                                            <div class="fruite-img">
+                                                <img src="./assets/img/fruite-item-1.jpg" class="img-fluid w-100"
+                                                    style="border-top-left-radius: 12px !important;  border-top-right-radius: 12px !important;"
+                                                    alt="">
+                                            </div>
+                                            <div class="text-white px-3 py-1 position-absolute"
+                                                style="top: 10px; left: 10px; border-radius:10px; background-color: #ffb524;">
+                                                Fruits</div>
+                                            <div class="p-4 border border-top-0"
+                                                style="border-bottom-right-radius: 12px !important; border-bottom-left-radius: 12px !important;border-color: #ffb524 !important;">
+                                                <h4 style="color: #45595b; font-weight: 600 !important;">Grapes</h4>
+                                                <p style="color: #747d88;">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit<br> sed do
+                                                    eiusmod te<br> incididunt</p>
+                                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                                    <p class="fs-5 mb-0" style="color: #747d88; font-weight: 600;">$4.99
+                                                        / kg</p>
+
+                                                    <a href="#" class="btn border px-3"
+                                                        style="border-radius:800px; font-weight: 600; color: #81c408;border-color: #ffb524 !important;border: 1px solid #dee2e6; display: inline-block;text-align: center; vertical-align: middle; cursor: pointer; ">
+
+                                                        <i class="ri-shopping-bag-fill"
+                                                            style="color: #81c408;margin-right:6px; font-weight: 900;"></i>
+                                                        Add to
+                                                        cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-xl-4 fruits-hover">
+                                        <div class="rounded position-relative fruite-item">
+                                            <div class="fruite-img">
+                                                <img src="./assets/img/fruite-item-2.jpg" class="img-fluid w-100"
+                                                    style="border-top-left-radius: 12px !important;  border-top-right-radius: 12px !important;"
+                                                    alt="">
+                                            </div>
+                                            <div class="text-white px-3 py-1 position-absolute"
+                                                style="top: 10px; left: 10px; border-radius:10px; background-color: #ffb524;">
+                                                Fruits</div>
+                                            <div class="p-4 border border-top-0"
+                                                style="border-bottom-right-radius: 12px !important; border-bottom-left-radius: 12px !important;border-color: #ffb524 !important;">
+                                                <h4 style="color: #45595b; font-weight: 600 !important;">Raspberries
+                                                </h4>
+                                                <p style="color: #747d88;">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit<br> sed do
+                                                    eiusmod te<br> incididunt</p>
+                                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                                    <p class="fs-5 mb-0" style="color: #747d88; font-weight: 600;">$4.99
+                                                        / kg</p>
+
+                                                    <a href="#" class="btn border px-3"
+                                                        style="border-radius:800px; font-weight: 600; color: #81c408;border-color: #ffb524 !important;border: 1px solid #dee2e6; display: inline-block;text-align: center; vertical-align: middle; cursor: pointer; ">
+
+                                                        <i class="ri-shopping-bag-fill"
+                                                            style="color: #81c408;margin-right:6px; font-weight: 900;"></i>
+                                                        Add to
+                                                        cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-xl-4 fruits-hover">
+                                        <div class="rounded position-relative fruite-item">
+                                            <div class="fruite-img">
+                                                <img src="./assets/img/fruite-item-3.jpg" class="img-fluid w-100"
+                                                    style="border-top-left-radius: 12px !important;  border-top-right-radius: 12px !important;"
+                                                    alt="">
+                                            </div>
+                                            <div class="text-white px-3 py-1 position-absolute"
+                                                style="top: 10px; left: 10px; border-radius:10px; background-color: #ffb524;">
+                                                Fruits</div>
+                                            <div class="p-4 border border-top-0"
+                                                style="border-bottom-right-radius: 12px !important; border-bottom-left-radius: 12px !important;border-color: #ffb524 !important;">
+                                                <h4 style="color: #45595b; font-weight: 600 !important;">Apricots</h4>
+                                                <p style="color: #747d88;">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit<br> sed do
+                                                    eiusmod te<br> incididunt</p>
+                                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                                    <p class="fs-5 mb-0" style="color: #747d88; font-weight: 600;">$4.99
+                                                        / kg</p>
+
+                                                    <a href="#" class="btn border px-3"
+                                                        style="border-radius:800px; font-weight: 600; color: #81c408;border-color: #ffb524 !important;border: 1px solid #dee2e6; display: inline-block;text-align: center; vertical-align: middle; cursor: pointer; ">
+
+                                                        <i class="ri-shopping-bag-fill"
+                                                            style="color: #81c408;margin-right:6px; font-weight: 900;"></i>
+                                                        Add to
+                                                        cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-xl-4 fruits-hover">
+                                        <div class="rounded position-relative fruite-item">
+                                            <div class="fruite-img">
+                                                <img src="./assets/img/fruite-item-4.jpg" class="img-fluid w-100"
+                                                    style="border-top-left-radius: 12px !important;  border-top-right-radius: 12px !important;"
+                                                    alt="">
+                                            </div>
+                                            <div class="text-white px-3 py-1 position-absolute"
+                                                style="top: 10px; left: 10px; border-radius:10px; background-color: #ffb524;">
+                                                Fruits</div>
+                                            <div class="p-4 border border-top-0"
+                                                style="border-bottom-right-radius: 12px !important; border-bottom-left-radius: 12px !important;border-color: #ffb524 !important;">
+                                                <h4 style="color: #45595b; font-weight: 600 !important;">Banana</h4>
+                                                <p style="color: #747d88;">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit<br> sed do
+                                                    eiusmod te<br> incididunt</p>
+                                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                                    <p class="fs-5 mb-0" style="color: #747d88; font-weight: 600;">$4.99
+                                                        / kg</p>
+
+                                                    <a href="#" class="btn border px-3"
+                                                        style="border-radius:800px; font-weight: 600; color: #81c408;border-color: #ffb524 !important;border: 1px solid #dee2e6; display: inline-block;text-align: center; vertical-align: middle; cursor: pointer; ">
+
+                                                        <i class="ri-shopping-bag-fill"
+                                                            style="color: #81c408;margin-right:6px; font-weight: 900;"></i>
+                                                        Add to
+                                                        cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-xl-4 fruits-hover">
+                                        <div class="rounded position-relative fruite-item">
+                                            <div class="fruite-img">
+                                                <img src="./assets/img/fruite-item-5.jpg" class="img-fluid w-100"
+                                                    style="border-top-left-radius: 12px !important;  border-top-right-radius: 12px !important;"
+                                                    alt="">
+                                            </div>
+                                            <div class="text-white px-3 py-1 position-absolute"
+                                                style="top: 10px; left: 10px; border-radius:10px; background-color: #ffb524;">
+                                                Fruits</div>
+                                            <div class="p-4 border border-top-0"
+                                                style="border-bottom-right-radius: 12px !important; border-bottom-left-radius: 12px !important;border-color: #ffb524 !important;">
+                                                <h4 style="color: #45595b; font-weight: 600 !important;">Oranges</h4>
+                                                <p style="color: #747d88;">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit<br> sed do
+                                                    eiusmod te<br> incididunt</p>
+                                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                                    <p class="fs-5 mb-0" style="color: #747d88; font-weight: 600;">$4.99
+                                                        / kg</p>
+
+                                                    <a href="#" class="btn border px-3"
+                                                        style="border-radius:800px; font-weight: 600; color: #81c408;border-color: #ffb524 !important;border: 1px solid #dee2e6; display: inline-block;text-align: center; vertical-align: middle; cursor: pointer; ">
+
+                                                        <i class="ri-shopping-bag-fill"
+                                                            style="color: #81c408;margin-right:6px; font-weight: 900;"></i>
+                                                        Add to
+                                                        cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-xl-4 fruits-hover">
+                                        <div class="rounded position-relative fruite-item">
+                                            <div class="fruite-img">
+                                                <img src="./assets/img/fruite-item-2.jpg" class="img-fluid w-100"
+                                                    style="border-top-left-radius: 12px !important;  border-top-right-radius: 12px !important;"
+                                                    alt="">
+                                            </div>
+                                            <div class="text-white px-3 py-1 position-absolute"
+                                                style="top: 10px; left: 10px;border-radius:10px; background-color: #ffb524;">
+                                                Fruits</div>
+                                            <div class="p-4 border border-top-0"
+                                                style="border-bottom-right-radius: 12px !important; border-bottom-left-radius: 12px !important;border-color: #ffb524 !important;">
+                                                <h4 style="color: #45595b; font-weight: 600 !important;">Raspberries
+                                                </h4>
+                                                <p style="color: #747d88;">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit<br> sed do
+                                                    eiusmod te<br> incididunt</p>
+                                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                                    <p class="fs-5 mb-0" style="color: #747d88; font-weight: 600;">$4.99
+                                                        / kg</p>
+
+                                                    <a href="#" class="btn border px-3"
+                                                        style="border-radius:800px; font-weight: 600; color: #81c408;border-color: #ffb524 !important;border: 1px solid #dee2e6; display: inline-block;text-align: center; vertical-align: middle; cursor: pointer; ">
+
+                                                        <i class="ri-shopping-bag-fill"
+                                                            style="color: #81c408;margin-right:6px; font-weight: 900;"></i>
+                                                        Add to
+                                                        cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-xl-4 fruits-hover">
+                                        <div class="rounded position-relative fruite-item">
+                                            <div class="fruite-img">
+                                                <img src="./assets/img/fruite-item-1.jpg" class="img-fluid w-100"
+                                                    style="border-top-left-radius: 12px !important;  border-top-right-radius: 12px !important;"
+                                                    alt="">
+                                            </div>
+                                            <div class="text-white px-3 py-1 position-absolute"
+                                                style="top: 10px; left: 10px;border-radius:10px; background-color: #ffb524;">
+                                                Fruits</div>
+                                            <div class="p-4 border border-top-0"
+                                                style="border-bottom-right-radius: 12px !important; border-bottom-left-radius: 12px !important;border-color: #ffb524 !important;">
+                                                <h4 style="color: #45595b; font-weight: 600 !important;">Grapes</h4>
+                                                <p style="color: #747d88;">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit<br> sed do
+                                                    eiusmod te<br> incididunt</p>
+                                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                                    <p class="fs-5 mb-0" style="color: #747d88; font-weight: 600;">$4.99
+                                                        / kg</p>
+
+                                                    <a href="#" class="btn border px-3"
+                                                        style="border-radius:800px; font-weight: 600; color: #81c408;border-color: #ffb524 !important;border: 1px solid #dee2e6; display: inline-block;text-align: center; vertical-align: middle; cursor: pointer; ">
+
+                                                        <i class="ri-shopping-bag-fill"
+                                                            style="color: #81c408;margin-right:6px; font-weight: 900;"></i>
+                                                        Add to
+                                                        cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-xl-4 fruits-hover">
+                                        <div class="rounded position-relative fruite-item">
+                                            <div class="fruite-img">
+                                                <img src="./assets/img/fruite-item-5.jpg" class="img-fluid w-100"
+                                                    style="border-top-left-radius: 12px !important;  border-top-right-radius: 12px !important;"
+                                                    alt="">
+                                            </div>
+                                            <div class="text-white px-3 py-1 position-absolute"
+                                                style="top: 10px; left: 10px;border-radius:10px; background-color: #ffb524;">
+                                                Fruits</div>
+                                            <div class="p-4 border border-top-0"
+                                                style="border-bottom-right-radius: 12px !important; border-bottom-left-radius: 12px !important;border-color: #ffb524 !important;">
+                                                <h4 style="color: #45595b; font-weight: 600 !important;">Oranges</h4>
+                                                <p style="color: #747d88;">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit<br> sed do
+                                                    eiusmod te<br> incididunt</p>
+                                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                                    <p class="fs-5 mb-0" style="color: #747d88; font-weight: 600;">$4.99
+                                                        / kg</p>
+                                                    <a href="#" class="btn border px-3"
+                                                        style="border-radius:800px; font-weight: 600; color: #81c408;border-color: #ffb524 !important;border: 1px solid #dee2e6; display: inline-block;text-align: center; vertical-align: middle; cursor: pointer; ">
+
+                                                        <i class="ri-shopping-bag-fill"
+                                                            style="color: #81c408;margin-right:6px; font-weight: 900;"></i>
+                                                        Add to
+                                                        cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="pagination d-flex justify-content-center mt-5">
+                                            <a href="#" class="rounded">«</a>
+                                            <a href="#" class="active rounded"
+                                                style="background-color: #81c408; color: #fff;">1</a>
+                                            <a href="#" class="rounded">2</a>
+                                            <a href="#" class="rounded">3</a>
+                                            <a href="#" class="rounded">4</a>
+                                            <a href="#" class="rounded">5</a>
+                                            <a href="#" class="rounded">6</a>
+                                            <a href="#" class="rounded">»</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer section-->
+    <section id="Footer" class="footer section">
+        <div class="container-fluid text-white-50 footer pt-5 mt-5" style="background-color: #45595b;">
+            <div class="container py-5">
+                <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(226, 175, 24, 0.5) ;">
+                    <div class="row g-4">
+                        <div class="col-lg-3">
+                            <a href="#" style="text-decoration:none;">
+                                <h1 class="mb-0" style="color: #81c408; font-weight: 600;">Fruitables</h1>
+                                <p class="mb-0" style="color: #ffb524;">Fresh products</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="position-relative mx-auto">
+                                <input class="form-control border-0 w-100 py-3 px-4 rounded-pill"
+                                    style="color: #747d88;" type="number" placeholder="Your Email">
+                                <button type="submit"
+                                    class="btn submit-bTn border-0 py-3 px-4 position-absolute rounded-pill text-white"
+                                    style="top: 0; right: 0; font-weight: 600; background-color: #81c408; transition: 0.5s;">Subscribe
+                                    Now</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="d-flex justify-content-end pt-3">
+                                <a class="btn links me-2" href="#"
+                                    style=" width: 44px; height: 44px; font-size:19px; display: flex; align-items: center; justify-content: center; border-radius: 50%;color: #ffb524; border-color: #ffb524; transition: .5s; "><i
+                                        class="ri-twitter-fill"></i></a>
+                                <a class="btn links me-2" href="#"
+                                    style=" width: 44px; height: 44px;font-size:19px; display: flex; align-items: center; justify-content: center; border-radius: 50%;color: #ffb524; border-color: #ffb524; transition: .5s; "><i
+                                        class="ri-facebook-fill"></i></a>
+                                <a class="btn links me-2" href="#"
+                                    style=" width: 44px; height: 44px; font-size:19px;display: flex; align-items: center; justify-content: center; border-radius: 50%;color: #ffb524; border-color: #ffb524; transition: .5s; "><i
+                                        class="ri-youtube-fill"></i></a>
+                                <a class="btn links me-2" href="#"
+                                    style=" width: 44px; height: 44px; font-size:19px;display: flex; align-items: center; justify-content: center; border-radius: 50%;color: #ffb524; border-color: #ffb524; transition: .5s; "><i
+                                        class="ri-linkedin-fill"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="text-light mb-3">Why People Like us!</h4>
+                            <p class="mb-4">typesetting, remaining<br> essentially unchanged. It was<br>
+                                popularised in the 1960s with<br> the like Aldus PageMaker<br> including of Lorem Ipsum.
+                            </p>
+                            <a href="#" class="btn py-2 px-4"
+                                style="font-weight: 600; transition:.5s; border-radius: 50rem; color: #81c408; border-color: #ffb524;">Read
+                                More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="d-flex flex-column text-start footer-item">
+                            <h4 class="mb-3" style="color: #f4f6f8;">Shop Info</h4>
+                            <a class="btn-link" href="#"
+                                style=" text-decoration:none; line-height: 35px; color: rgba(255, 255, 255, .5);transition: 0.5s;">About
+                                Us</a>
+                            <a class="btn-link" href="#"
+                                style=" text-decoration:none; line-height:35px; color: rgba(255, 255, 255, .5);transition: 0.5s;">Contact
+                                Us</a>
+                            <a class="btn-link" href="#"
+                                style=" text-decoration:none; line-height:35px; color: rgba(255, 255, 255, .5);transition: 0.5s;">Privacy
+                                Policy</a>
+                            <a class="btn-link" href="3"
+                                style=" text-decoration:none; line-height:35px; color: rgba(255, 255, 255, .5);transition: 0.5s;">Terms
+                                &amp; Condition</a>
+                            <a class="btn-link" href="#"
+                                style=" text-decoration:none; line-height:35px; color: rgba(255, 255, 255, .5);transition: 0.5s;">Return
+                                Policy</a>
+                            <a class="btn-link" href="3"
+                                style=" text-decoration:none; line-height:35px; color: rgba(255, 255, 255, .5);transition: 0.5s;">FAQs
+                                &amp; Help</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="d-flex flex-column text-start footer-item">
+                            <h4 class="text-light mb-3">Account</h4>
+                            <a class="btn-link" href="#"
+                                style=" text-decoration:none; line-height:35px; color: rgba(255, 255, 255, .5);transition: 0.5s;">My
+                                Account</a>
+                            <a class="btn-link" href="#"
+                                style=" text-decoration:none; line-height:35px; color: rgba(255, 255, 255, .5);transition: 0.5s;">Shop
+                                details</a>
+                            <a class="btn-link" href="#"
+                                style=" text-decoration:none; line-height:35px; color: rgba(255, 255, 255, .5);transition: 0.5s;">Shopping
+                                Cart</a>
+                            <a class="btn-link" href="#"
+                                style=" text-decoration:none; line-height:35px; color: rgba(255, 255, 255, .5);transition: 0.5s;">Wishlist</a>
+                            <a class="btn-link" href="#"
+                                style=" text-decoration:none; line-height:35px; color: rgba(255, 255, 255, .5);transition: 0.5s;">Order
+                                History</a>
+                            <a class="btn-link" href="#"
+                                style=" text-decoration:none; line-height:35px; color: rgba(255, 255, 255, .5);transition: 0.5s;">International
+                                Orders</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="text-light mb-3">Contact</h4>
+                            <p>Address: 1429 Netus Rd, NY 48247</p>
+                            <p>Email: Example@gmail.com</p>
+                            <p>Phone: +0123 4567 8910</p>
+                            <p>Payment Accepted</p>
+                            <img src="./assets/img/footer.img1.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top:80px;">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <span class="text-light"><a href="#" class="end-link"
+                                style="text-decoration:none; color: #81c408;"><i class="ri-copyright-fill"
+                                    style="color:#fff;"></i>Your Site Name</a>, All
+                            right reserved.</span>
+                    </div>
+                    <div class="col-md-6 my-auto text-center text-md-end text-white">
+                        Designed By <a class="border-bottom end-link" href="https://htmlcodex.com"
+                            style="text-decoration: none; color: #81c408;">HTML Codex</a> Distributed By
+                        <a class="border-bottom end-link" href="https://themewagon.com"
+                            style="text-decoration:none; color: #81c408;">ThemeWagon</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
